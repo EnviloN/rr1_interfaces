@@ -13,11 +13,31 @@ find_package(example_interfaces REQUIRED)
 
 set(msg_files
   # Add messages here
+  "msg/Experiment2B.msg"
+  "msg/Experiment4B.msg"
+  "msg/Experiment8B.msg"
+  "msg/Experiment16B.msg"
+  "msg/Experiment32B.msg"
+  "msg/Experiment64B.msg"
+  "msg/Experiment128B.msg"
+  "msg/Experiment256B.msg"
+  "msg/Experiment512B.msg"
+  "msg/Experiment1024B.msg"
+  "msg/Experiment2048B.msg"
+  "msg/Experiment4096B.msg"
+  "msg/Experiment8192B.msg"
+  "msg/Experiment16384B.msg"
+  "msg/Experiment32768B.msg"
+  "msg/Experiment65536B.msg"
+  "msg/Experiment131072B.msg"
+  "msg/Experiment262144B.msg"
+  "msg/Experiment524288B.msg"
+  "msg/Experiment1048576B.msg"
+  "msg/Experiment2097152B.msg"
 )
 
 set(srv_files
-  # Add services here
-  "srv/AnglesConverter.srv"
+  # Add services here  
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
